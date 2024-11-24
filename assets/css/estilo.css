@@ -1,8 +1,10 @@
+/* DIMENSÕES AUTOMATICAS DAS DIVS E COLUNAS */
+
 .flex{ flex-wrap: wrap; display: flex; max-width: 100%; margin: 0 auto;}
 .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	
 .col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
 
-.box-topo{
-     display: flex;
-     justify-content: space-between;
-}
+/***********************************************************************************************************************/
+body { width: 1440px; margin-left: auto; margin-right: auto;}
+
+.box-topo{ justify-content: space-between; margin: 0% 0% 2% 0%;} .box-topo img { height: 4%;}
