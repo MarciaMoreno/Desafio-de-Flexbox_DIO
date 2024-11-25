@@ -1,14 +1,34 @@
+
 /* DIMENSÕES AUTOMATICAS DAS DIVS E COLUNAS */
 
 .flex{ flex-wrap: wrap; display: flex; max-width: 100%; margin: 0 auto;}
 .col1{ width: 10%;}	.col2{ width: 20%;}	.col3{ width: 30%;}	.col4{ width: 40%;}	.col5{ width: 50%;}	.col6{ width: 60%;}	
-.col7{ width: 70%;}	.col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
+.col7{ width: 70%;} .col8{ width: 80%;}	.col9{ width: 90%;}	.col10{ width: 98%;}
 
 /***********************************************************************************************************************/
-body { width: 1440px; margin-left: auto; margin-right: auto;}
-.box-topo{ justify-content: space-between; margin: 1% 0% 2% 0%;} .box-topo img { height: 4%;}
-.sidebar{
-     margin-top: 4%;
-     flex-direction: row;
-     background-color: rgb(68, 69, 70);
+.body{ 
+     width: 1440px;
+     margin-left: auto; margin-right: auto;     
 }
+.box-topo{ justify-content: space-between; margin: 1% 0% 2% 0%;} 
+.box-topo img { height: 4%;}
+/***********************************************************************************************************************/
+.main figcaption h1{
+     width: 950px;
+     font-family: "Roboto", serif;
+     font-weight: 700;
+     font-style: normal;
+     font-size: 21px;
+     white-space: nowrap;
+}
+.faixa-liked{ margin-left: -2%; width: 950px;}
+.faixa-liked div{ margin: 15px;}
+.faixa-liked img{ justify-content: space-between; }
+.main span{ 
+     font-family: "Roboto", serif; font-weight: 600; font-size: 14px; line-height: 50px;
+}
+.main p{ 
+     font-family: "Roboto", serif; font-weight: 400; font-size: 14px; line-height: 18px;
+}
+
+/***********************************************************************************************************************/
