@@ -24,7 +24,7 @@
 .faixa-liked{ margin-left: -2%; width: 950px;}
 .faixa-liked div{ margin: 15px;}
 .faixa-liked img{ justify-content: space-between; }
-.main span{ 
+.sub-tito{ 
      font-family: "Roboto", serif; font-weight: 600; font-size: 14px; line-height: 50px;
 }
 .main p{ 
@@ -32,3 +32,39 @@
 }
 
 /***********************************************************************************************************************/
+.sidebar div{ margin: 0% 0% 2% 4%;}
+.sidebar img{
+     width: 160px;
+     height: 90px;
+}
+.sidebar h2{
+     font-family: "Roboto", serif;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 16.41px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+     width: 205px;
+     height: 32px;   
+}
+.sidebar span{     
+     margin: 10% 0% 20%;
+     font-family: Roboto;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 14.06px;
+     text-align: left;
+     
+
+}
+.sidebar p{
+     font-family: Roboto;
+     font-size: 12px;
+     font-weight: 400;
+     line-height: 14.06px;
+     text-align: left;
+     text-underline-position: from-font;
+     text-decoration-skip-ink: none;
+
+}
